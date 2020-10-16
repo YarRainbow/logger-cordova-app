@@ -2,43 +2,14 @@
 
 * [Начало](#getting-started)
   * [Установка Logger](#configure-branch)
-  * [Configure App](#configure-app)
-  * [Initialize Branch](#initialize-branch)
-  * [Test Deep Link iOS](#test-deep-link-ios)
-  * [Test Deep Link Android](#test-deep-link-android)
-* [Features](#features)
-  * [Initialize Branch Features](#initialize-branch-features)
-  * [Create Content Reference](#create-content-reference)
-  * [Create Deep Link](#create-deep-link)
-  * [Share Deep Link](#share-deep-link)
-  * [Read Deep Link](#read-deep-link)
-  * [Display Content](#display-content)
-  * [Track Content](#track-content)
-  * [Track User](#track-user)
-  * [Track Event](#track-event)
-  * [Track Commerce](#track-commerce)
-  * [Handle Referrals](#handle-referrals)
-* [Troubleshooting](#troubleshooting)
-  * [Testing: Key Points](#testing-key-points)
-  * [Testing: Optional App Config](#testing-optional-app-config)
-  * [Testing: Branch Analytics](#testing-branch-analytics)
-  * [Testing: Simulating an Install](#testing-simulating-an-install)
-  * [Testing: Supported Platforms](#testing-supported-platforms)
-  * [Testing: Sample Test App](#testing-sample-test-app)
-  * [Link Data: Universal Object Properties](#link-data-universal-object-properties)
-  * [Link Data: Deep Link Properties](#link-data-deep-link-properties)
-  * [Link Data: Commerce Properties](#link-data-commerce-properties)
-  * [Compiling: Cordova Dependencies](#compiling-cordova-dependencies)
-  * [Compiling: Show Console Logs](#compiling-show-console-logs)
-  * [Compiling: Updating the Branch SDK](#compiling-updating-the-branch-sdk)
-  * [Compiling: Incompatible Plugins](#compiling-incompatible-plugins)
-  * [Compiling: Errors](#compiling-errors)
+  * [Настройка Logger](#configure-app)
+  * [Методы Logger](#method-app)
 
 ## Начало
 
 * #### Установка Logger
 
-  * Скачайте и установите файл [Logger.js](https://dashboard.branch.io/settings/link) в каталог проекта www
+  * Скачайте и установите файл [Logger.js](https://github.com/kirill-samylin/logger-cordova-app/blob/master/js/Logger.js) в каталог проекта www
   * Подключите файл в www/index.html
 
     ![image](https://i.imgur.com/1GtFvng.jpeg)
