@@ -1,12 +1,4 @@
 # Logger for app Cordova
-
-* [Начало](#getting-started)
-  * [Установка Logger](#configure-branch)
-  * [Настройка Logger](#configure-app)
-  * [Методы Logger](#method-app)
-
-## Начало
-
 * #### Установка Logger
 
   * Скачайте и установите файл [Logger.js](https://github.com/kirill-samylin/logger-cordova-app/blob/master/js/Logger.js) в каталог проекта www
