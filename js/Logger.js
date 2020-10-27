@@ -48,7 +48,7 @@ class Logger {
     }
     _getMonth(time) {
         const month = '' + (time.getMonth() + 1);
-        return (month===1) ? ('0' + month) : month;
+        return (month.length===1) ? ('0' + month) : month;
     }
     _timeLogs() {
         const time = new Date();
